@@ -1,0 +1,29 @@
+# i3blocks config file
+
+# Global properties
+command=/usr/lib/i3blocks/$BLOCK_NAME
+separator_block_width=15
+markup=none
+
+# Generic media player support
+[mediaplayer]
+interval=5
+signal=10
+
+# Volume indicator
+[volume]
+label=VOL
+instance=Master
+interval=once
+signal=10
+
+# Network interface monitoring
+[iface]
+color=#8EC07C
+label=E:
+interval=10
+
+# Date Time
+[time]
+command=date '+%a %d %b %Y %H:%M:%S %Z  '
+interval=5

@@ -1,0 +1,8 @@
+NAME="Arcadia"
+ID=arcadia
+ID_LIKE=arch
+PRETTY_NAME="Arcadia"
+ANSI_COLOR="0;36"
+HOME_URL="https://vitlug.tech/"
+SUPPORT_URL="https://vitlug.tech/"
+BUG_REPORT_URL="https://vitlug.tech/"
