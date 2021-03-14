@@ -104,9 +104,13 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+
 #ARCADIA
 linux-zen
-neofetch
+grub
+os-prober
+
+#DE
 lightdm
 lightdm-gtk-greeter
 gnome
@@ -114,12 +118,17 @@ i3-gaps
 i3status
 i3blocks
 dmenu
-feh
-brightnessctl
-bash-completion
-gparted
+rofi
+
 
 #Calamares
 calamares
 arcadia-calamares-config
 
+#Random
+git
+neofetch
+feh
+brightnessctl
+bash-completion
+gparted
