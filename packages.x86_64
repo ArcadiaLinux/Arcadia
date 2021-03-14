@@ -116,7 +116,10 @@ i3blocks
 dmenu
 feh
 brightnessctl
+bash-completion
+gparted
 
 #Calamares
 calamares
+arcadia-calamares-config
 
