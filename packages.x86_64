@@ -113,7 +113,6 @@ os-prober
 #DE
 lightdm
 lightdm-gtk-greeter
-gnome
 i3-gaps
 i3status
 i3blocks
