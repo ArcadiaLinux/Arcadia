@@ -134,4 +134,6 @@ feh
 brightnessctl
 bash-completion
 gparted
-firefox
+#firefox
+
+yay-bin
