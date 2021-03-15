@@ -109,6 +109,7 @@ zsh
 linux-zen
 grub
 os-prober
+base-devel
 
 #DE
 lightdm
@@ -131,3 +132,4 @@ feh
 brightnessctl
 bash-completion
 gparted
+firefox
