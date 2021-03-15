@@ -112,6 +112,8 @@ os-prober
 base-devel
 
 #DE
+xorg
+xfce4
 lightdm
 lightdm-gtk-greeter
 i3-gaps
