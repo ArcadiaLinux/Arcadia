@@ -1,5 +1,5 @@
 WORK_DIR='/run/media/nishal/095a8bce-d904-4431-b12b-ebf1c9380d25/home/nishal/archiso_wd'
-OUTPUT_DIR='/home/nishal/Documents/arcadia-builds'
+OUTPUT_DIR='/run/media/nishal/095a8bce-d904-4431-b12b-ebf1c9380d25/home/nishal/arcadia-builds'
 PROFILE_DIR='/home/nishal/Documents/arcadia'
 
 cp "$PROFILE_DIR/pacman.conf" "$PROFILE_DIR/airootfs/etc"
