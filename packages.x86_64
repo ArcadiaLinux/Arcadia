@@ -116,12 +116,6 @@ xorg
 xfce4
 lightdm
 lightdm-gtk-greeter
-i3-gaps
-i3status
-i3blocks
-dmenu
-rofi
-
 
 #Calamares
 calamares
@@ -134,6 +128,18 @@ feh
 brightnessctl
 bash-completion
 gparted
-#firefox
 
 yay-bin
+
+###fonts
+adobe-source-sans-pro-fonts
+awesome-terminal-fonts
+noto-fonts
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-hack
+ttf-inconsolata
+ttf-liberation
+ttf-roboto
+ttf-ubuntu-font-family

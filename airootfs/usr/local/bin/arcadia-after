@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 chmod 750 /etc/sudoers.d
