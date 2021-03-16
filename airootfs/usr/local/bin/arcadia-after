@@ -1,0 +1,18 @@
+
+#!/bin/bash
+
+chmod 750 /etc/sudoers.d
+chmod 750 /etc/polkit-1/rules.d
+chgrp polkitd /etc/polkit-1/rules.d
+
+cp -aT /etc/skel/ /root/
+
+rm -rf /etc/systemd/system/getty@tty1.service.d
+
+#Original cleanup
+rm -f /etc/sudoers.d/g_wheel
+rm /root/{.automated_script.sh,.zlogin}
+
+chmod -v 750 /root
+
+rm /usr/local/bin/arcadia-after
