@@ -2,4 +2,5 @@ root:x:0:root
 adm:x:4:liveuser
 wheel:x:10:liveuser
 uucp:x:14:liveuser
+autologin:x:18:liveuser
 liveuser:x:1000:
