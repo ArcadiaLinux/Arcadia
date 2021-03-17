@@ -3,4 +3,7 @@
 pacman-key --init
 pacman-key --populate archlinux
 
+mkdir -p /boot/grub/themes
+cp -Rf /usr/share/grub/themes/arcadia /boot/grub/themes/
+
 rm /usr/local/bin/arcadia-before

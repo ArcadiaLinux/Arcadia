@@ -108,6 +108,7 @@ zsh
 #ARCADIA
 linux-zen
 grub
+arcadia-grub-config
 os-prober
 base-devel
 
