@@ -3,7 +3,7 @@
 echo "Pulling newer files first"
 git pull
 
-git add --all .
+git add --all iso
 
 echo "Enter commit comment: "
 
