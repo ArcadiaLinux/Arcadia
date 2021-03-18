@@ -1,6 +1,11 @@
-WORK_DIR='/run/media/nishal/095a8bce-d904-4431-b12b-ebf1c9380d25/home/nishal/archiso_wd'
-OUTPUT_DIR='/run/media/nishal/095a8bce-d904-4431-b12b-ebf1c9380d25/home/nishal/arcadia-builds'
-PROFILE_DIR='/home/nishal/Documents/arcadia'
+#!/bin/bash
+
+WORK_DIR='work'
+OUTPUT_DIR='output'
+PROFILE_DIR='iso'
+
+mkdir -p "$OUTPUT_DIR"
+mkdir -p "$WORK_DIR"
 
 cp "$PROFILE_DIR/pacman.conf" "$PROFILE_DIR/airootfs/etc"
 
