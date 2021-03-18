@@ -7,9 +7,12 @@ chgrp polkitd /etc/polkit-1/rules.d
 cp -aT /etc/skel/ /root/
 
 rm -rf /etc/systemd/system/getty@tty1.service.d
+rm -rf /etc/systemd/system/getty@tty1.service.d
 
 #Original cleanup
 rm -f /etc/sudoers.d/g_wheel
+rm -f /etc/xdg/autostart/calamares.desktop
+rm -f /home/*/Desktop/calamares.desktop
 rm /root/{.automated_script.sh,.zlogin}
 
 chmod -v 750 /root
