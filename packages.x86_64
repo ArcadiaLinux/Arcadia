@@ -43,7 +43,8 @@ iwd
 jfsutils
 kitty-terminfo
 lftp
-linux
+linux-zen
+linux-zen-headers
 linux-atm
 linux-firmware
 livecd-sounds
@@ -106,11 +107,11 @@ xl2tpd
 zsh
 
 #ARCADIA
-linux-zen
 grub
 arcadia-grub-config
 os-prober
 base-devel
+xdg-user-dirs
 
 #DE
 xorg

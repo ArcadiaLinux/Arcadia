@@ -14,6 +14,7 @@ airootfs_image_tool_options=('-comp' 'xz')
 file_permissions=(
   ["/etc/shadow"]="0:0:400"
   ["/root"]="0:0:750"
+  ["/etc/sudoers.d"]="0:0:750"
   ["/root/.automated_script.sh"]="0:0:755"
   ["/usr/local/bin/arcadia-after"]="0:0:755"
   ["/usr/local/bin/arcadia-before"]="0:0:755"
@@ -22,4 +23,6 @@ file_permissions=(
   ["/usr/local/bin/livecd-sound"]="0:0:755"
   ["/etc/shadow"]="0:0:0400"
   ["/etc/gshadow"]="0:0:0400"
+  ["/etc/xdg/autostart/calamares.desktop"]="0:0:755"
+  ["/etc/skel/Desktop/calamares.desktop"]="0:0:755"
 )
