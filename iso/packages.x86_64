@@ -1,5 +1,3 @@
-#
-# SPDX-License-Identifier: GPL-3.0-or-later
 alsa-utils
 amd-ucode
 arch-install-scripts
@@ -47,7 +45,7 @@ linux-zen
 linux-zen-headers
 linux-atm
 linux-firmware
-livecd-sounds
+#livecd-sounds
 lsscsi
 lvm2
 lynx
