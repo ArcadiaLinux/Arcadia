@@ -118,7 +118,6 @@ arcadia-grub-config
 os-prober
 base
 base-devel
-xdg-user-dirs
 cryptsetup
 
 #Video
@@ -159,6 +158,18 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 openresolv
+
+#File management
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+mtpfs
+udiskie
+udisks2
+xdg-user-dirs
 
 #DE
 xorg
