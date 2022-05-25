@@ -12,6 +12,8 @@
 # GNU General Public License for more details.
 #
 # Packages to be included in x86_64 ISO
+
+# Basics
 alsa-utils
 amd-ucode
 arch-install-scripts
@@ -127,12 +129,12 @@ wvdial
 xfsprogs
 xl2tpd
 
-#SH
+# Shell
 zsh
 zsh-completions
 zsh-syntax-highlighting
 
-#OS 
+# OS 
 grub
 arcadia-grub-config
 os-prober
@@ -140,10 +142,10 @@ base
 base-devel
 cryptsetup
 
-#Video
+# Video
 mesa
 
-#Audio
+# Audio
 alsa-firmware
 alsa-plugins
 alsa-lib
@@ -159,14 +161,14 @@ pulseaudio
 pulseaudio-alsa
 pavucontrol
 
-#Bluetooth
+# Bluetooth
 blueberry
 bluez
 bluez-libs
 bluez-utils
 pulseaudio-bluetooth
 
-#Network
+# Network
 avahi
 nss-mdns
 mobile-broadband-provider-info
@@ -179,7 +181,7 @@ networkmanager-pptp
 networkmanager-vpnc
 openresolv
 
-#File management
+# File management
 gvfs
 gvfs-afc
 gvfs-gphoto2
@@ -191,26 +193,40 @@ udiskie
 udisks2
 xdg-user-dirs
 
-#DE
-xorg
-xorg-server
-xorg-apps
-xorg-xinit
-xfce4
-#picom
-lightdm
-lightdm-gtk-greeter
+# GTK/GNOME
+gdm
+cheese
+eog
+gdm
+gedit
+gnome-desktop
+gnome-clocks
+gnome-control-center
+gnome-keyring
+gnome-screenshot
+gnome-shell-extensions
+gnome-session
+gnome-shell
+gnome-terminal
+gnome-backgrounds
+gnome-software
+gnome-software-packagekit-plugin
+mutter
+nautilus
+wayland
+xwayland
+xdg-user-dirs-gtk
 
-#Calamares
+# Calamares
 calamares
 arcadia-calamares-config
 
-#Internet
+# Internet
 git
 firefox
 wget
 
-#Utilities
+# Utilities
 iw
 brightnessctl
 bash-completion
@@ -222,11 +238,11 @@ unrar
 unzip
 yay-bin
 
-#Fancy
+# Fancy
 neofetch
 feh
 
-###fonts
+# Fonts
 adobe-source-sans-pro-fonts
 awesome-terminal-fonts
 noto-fonts
