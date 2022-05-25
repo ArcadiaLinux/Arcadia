@@ -214,7 +214,8 @@ gnome-software-packagekit-plugin
 mutter
 nautilus
 wayland
-xwayland
+xorg
+xorg-xwayland
 xdg-user-dirs-gtk
 
 # Calamares
