@@ -210,13 +210,22 @@ gnome-shell
 gnome-terminal
 gnome-backgrounds
 gnome-software
+gnome-weather
+gnome-calculator
+gnome-tweaks
+gnome-calendar
 gnome-software-packagekit-plugin
+gpaste
 mutter
 nautilus
 wayland
 xorg
 xorg-xwayland
 xdg-user-dirs-gtk
+
+#application to theme/configure qt apps on gtk based desktops
+qt5ct
+kvantum
 
 # Calamares
 calamares
@@ -226,6 +235,10 @@ arcadia-calamares-config
 git
 firefox
 wget
+qbittorrent
+
+#OfficeSuite
+libreoffice-fresh
 
 # Utilities
 iw
@@ -238,6 +251,9 @@ p7zip
 unrar
 unzip
 yay-bin
+htop
+timeshift
+
 
 # Fancy
 neofetch
