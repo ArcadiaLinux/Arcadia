@@ -200,6 +200,10 @@ eog
 gdm
 gedit
 gnome-desktop
+gnome-weather
+gnome-calculator
+gnome-tweaks
+gnome-calendar
 gnome-clocks
 gnome-control-center
 gnome-keyring
@@ -214,6 +218,10 @@ gnome-software-packagekit-plugin
 mutter
 nautilus
 xdg-user-dirs-gtk
+
+#application to theme/configure qt apps on gtk based desktops
+qt5ct
+kvantum
 
 # Calamares
 calamares
@@ -235,6 +243,8 @@ p7zip
 unrar
 unzip
 yay-bin
+htop
+timeshift
 
 # Fancy
 neofetch
