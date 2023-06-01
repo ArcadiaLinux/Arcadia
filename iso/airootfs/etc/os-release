@@ -1,7 +1,7 @@
-NAME="Arcadia"
+NAME="arcadialinux"
 ID=arcadia
 ID_LIKE=arch
-PRETTY_NAME="Arcadia"
+PRETTY_NAME="arcadialinux"
 ANSI_COLOR="0;36"
 HOME_URL="https://vitlug.tech/"
 SUPPORT_URL="https://vitlug.tech/"
