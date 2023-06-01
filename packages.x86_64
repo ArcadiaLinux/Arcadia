@@ -155,7 +155,6 @@ pipewire-alsa
 wireplumber
 
 # Network
-nss-mdns
 mobile-broadband-provider-info
 modemmanager
 networkmanager
@@ -213,9 +212,7 @@ wget
 iw
 brightnessctl
 bash-completion
-gparted
 scrot
-vlc
 p7zip
 unrar
 unzip
