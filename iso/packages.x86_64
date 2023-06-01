@@ -155,7 +155,6 @@ pipewire-alsa
 wireplumber
 
 # Network
-avahi
 nss-mdns
 mobile-broadband-provider-info
 modemmanager
