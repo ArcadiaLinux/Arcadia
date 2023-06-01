@@ -52,8 +52,6 @@ grml-zsh-config
 haveged
 hdparm
 intel-ucode
-ipw2100-fw
-ipw2200-fw
 irssi
 #iwd
 jfsutils
@@ -210,7 +208,6 @@ gnome-shell
 gnome-terminal
 gnome-backgrounds
 gnome-software
-gnome-software-packagekit-plugin
 mutter
 nautilus
 wayland
